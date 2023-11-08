@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'MontyHall_Frontend';
+  totalSimulations: number = 0;
+  wins: number = 0;
+  losses: number = 0;
 }
