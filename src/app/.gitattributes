@@ -1,1 +1,2 @@
 .angular/cache/16.2.9/angular-webpack/d884011989e9d002e21780ccddde91c28e2dd936/0.pack filter=lfs diff=lfs merge=lfs -text
+*.pack filter=lfs diff=lfs merge=lfs -text
