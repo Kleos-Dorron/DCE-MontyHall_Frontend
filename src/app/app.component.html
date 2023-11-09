@@ -1,5 +1,6 @@
 <div>
-  <app-simulation-form></app-simulation-form>
-  <app-simulation-results [totalSimulations]="totalSimulations" [wins]="wins"
-    [losses]="losses"></app-simulation-results>
+  <app-simulation-form (simulationResultsReceived)="updateSimulationResults($event)"></app-simulation-form>
+  <app-simulation-results [totalSimulations]="simulationResults.totalSimulations" [wins]="simulationResults.wins"
+    [losses]="simulationResults.losses">
+  </app-simulation-results>
 </div>
