@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, ChangeDetectorRef } from '@angular/core';
 
 @Component({
   selector: 'app-simulation-results',
@@ -9,4 +9,5 @@ export class SimulationResultsComponent {
   @Input() totalSimulations: number = 0;
   @Input() wins: number = 0;
   @Input() losses: number = 0;
+
 }

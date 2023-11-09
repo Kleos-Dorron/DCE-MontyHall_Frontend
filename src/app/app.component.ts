@@ -6,8 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'MontyHall_Frontend';
-  totalSimulations: number = 0;
-  wins: number = 0;
-  losses: number = 0;
+  title = 'MontyHall Game Paradox';
+  simulationResults: any;
+
+  updateSimulationResults(result: any) {
+    this.simulationResults = result;
+  }
 }

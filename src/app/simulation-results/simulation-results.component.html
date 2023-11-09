@@ -1,7 +1,14 @@
-<!--<p>simulation-results works!</p>-->
-<div>
-    <h2>Simulation Results</h2>
-    <p>Total Simulations: {{ totalSimulations }}</p>
-    <p>Wins: {{ wins }}</p>
-    <p>Losses: {{ losses }}</p>
+<div class="container">
+    <h2 class="mt-4">Simulation Results</h2>
+    <div class="row">
+        <div class="col-md-4 ">
+            <h3 class="mt-3  alert-primary">Total Simulations: {{ totalSimulations }}</h3>
+        </div>
+        <div class="col-md-4">
+            <h3 class="mt-3  alert-success">Win Probability: {{ wins }}</h3>
+        </div>
+        <div class="col-md-4">
+            <h3 class="mt-3  alert-danger">Loss Probability: {{ losses }}</h3>
+        </div>
+    </div>
 </div>
